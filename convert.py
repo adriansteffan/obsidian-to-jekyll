@@ -7,7 +7,7 @@ from pathlib import Path
 def cleanup_content(content, custom_replaces):
     if custom_replaces:
         if "Zotero Links: [Local]" in content:
-            content = re.sub(r"(?<=^- ).*(?=$)", "Info:", content, 1, re.MULTILINE)  # BetterBibtex Ref
+            content = re.sub(r"(?<=^- ).*(?=$)", "Metadata:", content, 1, re.MULTILINE)  # BetterBibtex Ref
             content = re.sub(r"^ *- Zotero Links: \[Local\].*$", "", content, 0, re.MULTILINE)  # Zotero Links
 
     content = re.sub(r'(?<=\[\[)[^[|]*\|(?=[^]]*\]\])', '', content)  # aliases
