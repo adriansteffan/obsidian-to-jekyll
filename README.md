@@ -36,7 +36,7 @@ Notes are either **public** or **private**, where the script does not copy over 
 
 ## Duct Tape Obsidian Publish
 
-This script is part of my selfmade Obsidian publish setup, which is roughly outlined below. You can see the result over at my [digital garden](https://notes.adriansteffan.com). It uses the [Jekyll Garden](https://github.com/Jekyll-Garden/jekyll-garden.github.io) theme and Github Pages to publish the notes.
+This script is part of my selfmade Obsidian publish setup, which is roughly outlined below. It uses the [Jekyll Garden](https://github.com/Jekyll-Garden/jekyll-garden.github.io) theme and Github Pages to publish the notes.
 
 The setup consists of 3 separate repositories:
 
